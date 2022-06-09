@@ -4,6 +4,8 @@
   "projects": {
     "forum-app": "apps/forum-app",
     "forum-app-e2e": "apps/forum-app-e2e",
-    "forum-backend": "apps/forum-backend"
+    "forum-backend": "apps/forum-backend",
+    "forum-ui-shared": "libs/forum/ui-shared",
+    "forum-util": "libs/forum/util"
   }
 }

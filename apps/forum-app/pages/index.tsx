@@ -1,5 +1,7 @@
 import styles from './index.module.scss';
 import { useEffect, useState } from 'react';
+import { ForumUiShared } from '@nx-forum-project/forum/ui-shared';
+import { forumUtil } from '@nx-forum-project/forum/util';
 
 export function Index() {
   const [backendMessage, setBackendMessage] = useState<string>('');
@@ -30,6 +32,13 @@ export function Index() {
               </h2>
             </div>
             <div className="logo-container"></div>
+          </div>
+
+          <div id="commands" className="rounded shadow">
+            <h2>Components from ui-shared library</h2>
+            <ForumUiShared />
+            <h2>Util function from util library</h2>
+            <span>{ forumUtil()}</span>
           </div>
 
           <p id="love">Carefully crafted with NX</p>

@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "forum-app": "apps/forum-app",
+    "forum-app-e2e": "apps/forum-app-e2e",
     "forum-backend": "apps/forum-backend"
   }
 }

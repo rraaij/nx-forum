@@ -27,5 +27,18 @@
       }
     ]
   },
-  "defaultProject": "forum-backend"
+  "defaultProject": "forum-backend",
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "babel": true
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "scss",
+        "linter": "eslint"
+      }
+    }
+  }
 }

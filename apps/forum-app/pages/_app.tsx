@@ -6,7 +6,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to forum-app!</title>
+        <title>NX Forum</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />
